@@ -2,8 +2,8 @@
 
 **DUELS DE GUERRIERS : PART I**
 
-#### 1. **Définir les propriétés nécessaires :**
-#### 1. **Définir les propriétés nécessaires :**
+###### 1. **Définir les propriétés nécessaires :**
+###### 1. **Définir les propriétés nécessaires :**
 
  
 
