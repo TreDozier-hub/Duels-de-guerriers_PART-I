@@ -44,12 +44,7 @@ namespace Duels_de_guerriers
                     break;
                 }
 
-                // Simuler des dégâts
-                // Simuler des dégâts
-                //int degats = 20;
-                //nain.SubirDegats(degats);
-                //Console.WriteLine($"{nain.Nom} a maintenant {nain.PointsDeVie} points de vie.");
-                
+             
             }
             
             Console.WriteLine("Fin du duel !");
