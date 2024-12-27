@@ -63,7 +63,8 @@ namespace Duels_de_guerriers_PART_I.ClassFolder
         {  return NomGuerrier; }
 
         public int GetPointsDeVie()
-        { return _pointsDeVie; }        
+        { return _pointsDeVie; }       
+        
 
         //Setter
         public void SetPointsDeVie()
@@ -76,7 +77,7 @@ namespace Duels_de_guerriers_PART_I.ClassFolder
             Console.WriteLine($"{NomGuerrier} --> PV = {PointsDeVie} ");
         }
 
-        public int NbCoups()
+        public int GetNbDesAttaque()
         {
             return nbDesAttaque;
 
@@ -85,12 +86,12 @@ namespace Duels_de_guerriers_PART_I.ClassFolder
 
         //Simuler une attaque en lançant des dés (valeurs aléatoires entre 1 et 6
 
-        private Random de = new Random();
+        private Random lanceDe = new Random();
 
 
         public int Attaquer()
         {            
-            int degat = de.Next(1, 7);
+            int degat = lanceDe.Next(1, 7);
             nbDesAttaque++; // Incrémente le compteur de coups
             Console.WriteLine($"{NomGuerrier} attaque et inflige {degat} dégâts.");
             
